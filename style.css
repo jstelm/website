@@ -1,0 +1,196 @@
+
+
+body{
+    font: 300 18px / 1.6em 'Poppins', sans-serif;
+    box-sizing: border-box;   
+}
+
+
+    /*link nav*/
+    
+  a{
+    color: #333;
+    text-decoration: none;
+}
+
+ a:hover{
+    color: #feb600;
+        transition: all 0.3s ease;
+
+}
+
+img {
+    
+    max-width: 100%;
+    height:auto;
+}
+a.brand {
+    font-size: 32px;
+    color: #feb600;
+
+}
+
+
+.container {
+   max-width: 1170px;
+   width:100%;
+   margin:0 auto;
+    
+}
+
+
+/*page header*/
+
+.page-header{
+    padding: 20px 0;
+    border-bottom: 1px solid #333;
+}
+
+.page-header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    display: block;
+    font-weight: 500;
+
+}
+    
+/*menu*/
+
+
+
+.menu-items{
+
+    padding:0;
+    margin:0;
+    list-style:none;
+    display: flex;
+    align-items: center;
+}
+.menu-items li {
+    display: inline-block;
+    margin:0 5px;
+    float:left;
+}
+.menu-items li a {
+    padding: 16px 20px;
+     font-size: 20px;
+    font-weight: 300;
+    line-height: 1.1em;
+    display:inline-block;
+    
+    
+}
+
+.menu-items .active{
+    border: 1px solid #9d9d9d;
+    border-radius:30px;
+
+
+}
+    
+.menu-items .facebook-icon a {
+ font-size: 36px;   
+}
+
+.facebook-icon a:hover{
+    
+    color:#4267B2;
+}
+
+
+
+
+/* page section */
+.page-section{
+	
+}
+.intro-section {
+    padding-top: 130px;
+    padding-bottom: 70px;
+}
+.section-header{
+    
+    text-align: center;
+}
+.section-header h3{
+    font-size: 54px;
+    line-height: 60px;
+    font-weight: 500;
+    color: #FEB600;
+    margin: 0;
+}
+
+
+.section-header p{
+    color:#9d9d9d;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.2em;
+    margin: 20px 0 0;
+
+}
+
+
+.feature-boxes {	
+   margin: 0 auto;
+   width:100%;
+   background-image: linear-gradient(to bottom, #ffffff, #efefef, #e0e0e0, #d1d1d1, #c2c2c2);
+}
+
+.feature-boxes > .container {
+    display: flex;
+    padding-bottom: 150px;
+	justify-content: space-between;
+
+}
+
+.feature-box {
+	flex-basis: 30%;
+	text-align: center;
+}
+
+.feature-box i {
+     font-size:64px;
+    color: #FEB600;
+    padding-bottom: 20px;
+    
+}
+
+
+.feature-box h3 {
+	margin: 0 0 25px;
+	color: #5d6981;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1.4em;
+}
+
+.feature-box p {
+	margin: 0;
+}
+/* Footer */
+.page-footer {
+    background-color: #5d6981;
+	padding: 20px 0;
+	text-align: center;
+    color:#ffff;
+    
+}
+
+.page-footer p {
+	margin: 0 auto;
+}
+@media all and (max-width: 500px) {
+  .menu-items {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+@media (max-width: 576px) { 
+   nav a{ width:50%;
+    font-size: 16px;
+    }
